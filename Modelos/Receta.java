@@ -6,7 +6,8 @@ public class Receta {
 
 	protected Paciente paciente;
 	protected Datetime fecha;
-	protected PlanNutricional receta;
+	protected Doctor doctor;
 	protected Collection<Medicamento> medicamentos;
+	protected PlanNutricional planNut;
 
 }
