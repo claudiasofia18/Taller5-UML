@@ -2,8 +2,8 @@ package Modelos;
 
 public class Cita {
 
-	protected Doctor citasPendientes;
-	protected Paciente cita;
+	protected Doctor doctor;
+	protected Paciente paciente;
 	protected Datetime fecha;
 	protected boolean pagada;
 	protected String registradoPor;

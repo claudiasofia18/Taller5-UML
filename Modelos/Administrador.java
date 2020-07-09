@@ -1,10 +1,6 @@
 package Modelos;
 
-import java.util.*;
-
 public class Administrador extends Persona {
-
-	protected Collection<Persona> registradoPor;
 
 	public void registraUsuario() {
 		// TODO - implement Administrador.registraUsuario

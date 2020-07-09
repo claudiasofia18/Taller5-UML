@@ -8,4 +8,10 @@ public class PagoTarjeta implements Pago {
 	protected String propietario;
 	protected String banco;
 
+	@Override
+	public boolean realizarPago(float monto) {
+		return false;
+		// realiza el pago
+	}
+
 }

@@ -2,7 +2,7 @@ package Modelos;
 
 public class Secretaria extends Persona {
 
-	protected Doctor secretaria;
+	protected Doctor doctor;
 
 	public void verificarCita() {
 		// TODO - implement Secretaria.verificarCita
