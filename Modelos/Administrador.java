@@ -11,7 +11,7 @@ public class Administrador extends Persona {
 	 * 
 	 * @param Persona
 	 */
-	public void asignarRol(int Persona) {
+	public void asignarRol(Persona p) {
 		// TODO - implement Administrador.asignarRol
 		throw new UnsupportedOperationException();
 	}
