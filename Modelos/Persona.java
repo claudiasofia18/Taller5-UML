@@ -7,8 +7,9 @@ public class Persona {
 	protected String nombre;
 	protected String apellido;
 	protected String cedula;
-	protected String direccion;
+	protected String dirección;
 	protected Date fechaNac;
+	protected Administrador registradoPor;
 
 	public boolean logIn() {
 		// TODO - implement Persona.logIn

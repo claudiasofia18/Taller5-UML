@@ -4,8 +4,9 @@ import java.util.*;
 
 public class Doctor extends Persona {
 
-	protected Collection<Cita> doctor;
-	protected AreaMedica doctores;
+	protected Collection<Cita> citasPendientes;
+	protected AreaMedica areas;
+	protected Secretaria secretaria;
 	protected int regDoctor;
 	protected String especialidad;
 

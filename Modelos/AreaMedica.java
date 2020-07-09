@@ -4,7 +4,7 @@ import java.util.*;
 
 public class AreaMedica {
 
-	protected Collection<Doctor> areas;
+	protected Collection<Doctor> doctores;
 	protected String especilidad;
 	protected float costo;
 
